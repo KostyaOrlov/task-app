@@ -1,0 +1,53 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 650px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    border-bottom: 2px solid #000;
+}
+
+.input {
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.textarea {
+    min-height: 4rem;
+    display: block;
+    border: none;
+    outline: none;
+    margin-bottom: 2px;
+}
+
+.btn {
+    display: block;
+    border: 2px solid #00aeff;
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: #fff;
+    background: #00aeff;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-inactive {
+    background: #fafafa;
+    color: #00aeff;
+}

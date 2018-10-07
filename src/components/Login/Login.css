@@ -1,0 +1,28 @@
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.loged-in-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loged-out-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.btn-login {
+    margin-left: 1rem;
+}
+
+.input-field-login {
+    margin-right: 1rem;
+    max-width: 70px;
+    border-bottom: 3px solid #00aeff;
+}
